@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Tutorial 12 - PHP</title>
+    </head>
+
+    <body>
+        <h2 align="center">Registration Form</h2>
+        <table border="0" frame="box" align="center" bgcolor="lightblue">
+            <form name="regForm" method="post" action="T12.php">
+                <tr>
+                    <td> First Name: </td>
+                    <td> <input type="text" name="fnm"></td>
+                </tr>
+                <tr>
+                    <td> Last Name: </td>
+                    <td> <input type="text" name="lnm"></td>
+                </tr>
+                <tr>
+                    <td> Username: </td>
+                    <td> <input type="text" name="usnm"></td>
+                </tr>
+                <tr>
+                    <td> Password: </td>
+                    <td> <input type="password" name="pw"></td>
+                </tr>
+                <tr>
+                    <td> Gender: </td>
+                    <td> <input type="radio" name="gen" value="male"> Male</td>
+                </tr>
+                <tr>
+                    <td> &nbsp;</td>
+                    <td> <input type="radio" name="gen" value="female"> Female</td>
+                </tr>
+                <tr>
+                    <td> Academic Year: </td>
+                    <td>
+                        <select name="acyear">
+                            <option value="first_yr">1st Year</option>
+                            <option value="second_yr">2nd Year</option>
+                            <option value="third_yr">3rd Year</option>
+                            <option value="fourth_yr">4th Year</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Email: </td>
+                    <td> <input type="email" name="em"> </td>
+                </tr>
+                <tr>
+                    <td> Phone No: </td>
+                    <td> <input type="text" name="phno"> </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td> <input type="submit" name="sub" value="Submit"></td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

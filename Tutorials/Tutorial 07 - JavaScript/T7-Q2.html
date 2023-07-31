@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Tutorial 7 - JavaScript</title>
+
+	<script>
+		sum = 0;
+
+		for(i=0; i<5; i++)
+		{
+			mark = parseInt(prompt("Enter the mark: "));
+			sum += mark;
+		}
+		
+		avg = sum/5;
+
+		document.write("Sum is : "+sum);
+		document.write("<br>Average is : "+avg);
+
+		function grade()
+		{
+			if(avg>=30)
+			{
+				alert("Congrats! You are passed");
+			}
+			else
+			{
+				alert("Better luck next time");
+			}
+		}
+
+	
+	</script>
+</head>
+
+<body>
+	<form name="reg1">
+	<input type="button" name="b1" value="GRADE" onClick="grade()">
+	</form>
+</body>
+</html>

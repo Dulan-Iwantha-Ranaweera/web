@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Tutorial 9 - JavaScript</title>
+	<script>
+		function google()
+		{
+			goog = confirm("Are you sure you want to redirect to google?");
+			
+			if(goog == 1)
+			{
+				window.location.href = "https://www.google.com";
+			}
+			else
+			{
+				document.write("You decided to stay");
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" name="b1" value="Google" onClick="google()">
+</body>
+</html>
+		

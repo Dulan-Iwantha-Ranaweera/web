@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Tutorial 04 - HTML</title>
+    </head>
+
+    <body>
+        <center><fieldset style="width:270px">
+        <legend>Car Registration</legend>
+        <table boder="0" align="center">
+            <form name="reg01" method="post" action="new.php">
+                <tr>
+                    <td> Owner Name</td>
+                    <td><input type="text" name="ownernm" placeholder="Owner Name"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td> Email</td>
+                    <td><input type="email" name="em" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td> Phone<br>number</td>
+                    <td><input type="text" name="phonenum" placeholder="Phone number"></td>
+                </tr>
+                <tr>
+                    <td> Country</td>
+                    <td>
+                        <select name="coun">
+                            <option value="1">Sri lanka</option>
+                            <option value="2">India</option>
+                            <option value="3">USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Car Model</td>
+                    <td><input type="text" name="model"></td>
+                </tr>
+                <tr>
+                    <td> Manufacture<br>Year</td>
+                    <td>
+                        <select name="year">
+                            <option value="0">Select year</option>
+                            <option value="1">2023</option>
+                            <option value="2">2022</option>
+                            <option value="3">2021</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Transmission</td>
+                    <td>
+                        <input type="radio" name="tr" value="Manual">Manual
+                        <input type="radio" name="tr" value="Auto">Auto
+                    </td>
+                </tr>
+                <tr>
+                    <td> Other</td>
+                    <td>
+                        <textarea name="other" rows="3" cols="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="ch1" value="Yes">
+                        I agree to the conditions and terms
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <input type="submit" name="sub" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" name="res" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        </fieldset></center>
+    </body>
+</html>
